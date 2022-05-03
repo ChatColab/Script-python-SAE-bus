@@ -1,0 +1,12 @@
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretA12;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretB12;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesTemps12;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretA13;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretB13;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesTemps13;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretA14;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretB14;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesTemps14;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretA15;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesArretB15;
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) valuesTemps15;
