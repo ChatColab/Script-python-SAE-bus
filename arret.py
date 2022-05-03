@@ -1,19 +1,14 @@
 import pandas as pd
 
 # init
-col_list = []
-df = pd.csv("raw.csv", usecol=col_list)
-pattern = "Insert into Arret(nomArret) values "
+file = open("arret.txt","r")
 
-# ecriture des lignes finale dans une liste
+# put every line in a list
+list = file.readlines()
+patterns = "Insert into Arret(nomArret) values "
+print(list)
+
 final_list = []
-col = df["arret"]
-i = 0
-for line in col:
-    final_list[i] = pattern + "({df["arret"][i]})"
-    i++
-
-# ecriture dans un nouveau fichier texte
-f = open("data.txt",a+)
-for line in final_list:
-    f.write(line)
+for line in list:
+    final_list.append(patterns + " (" + line + ");")
+print(final_list)
