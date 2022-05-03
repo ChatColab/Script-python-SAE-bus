@@ -1,0 +1,41 @@
+Ligne,ArretA,ArretB,Temps,,Ligne,ArretA,ArretB,Temps,,Ligne,ArretA,ArretB,Temps
+15,Nancy Gare,Poirel,1,,12,HEILLECOURT,Vanoise,1,,14,Ludres,Saint-Blaine,1
+,Poirel,Place Stanislas - Dom Calmet,4,,,Vanoise,Victor Hugo,1,,,Saint-Blaine,Ludres Gare,1
+,Place Stanislas - Dom Calmet,Place Charles III - Point Central,1,,,Victor Hugo,Versailles,1,,,Ludres Gare,Collège Monod,1
+,Place Charles III - Point Central,Quartier Saint-Nicolas,1,,,Versailles,Morlaix,2,,,Collège Monod,Ludres Mairie,2
+,Quartier Saint-Nicolas,Place des Vosges,1,,,Morlaix,Chateaubriand,1,,,Ludres Mairie,Ecoles,1
+,Place des Vosges,Saint-Julien,1,,,Chateaubriand,Parc Embanie,1,,,Ecoles,Secours,1
+,Saint-Julien,Loritz,1,,,Parc Embanie,Temps Libre,1,,,Secours,Messein,1
+,Loritz,Esplanade,1,,,Temps Libre,Emile Gallé,1,,,Messein,Frères Mlumière,1
+,Esplanade,Stade Matter,1,,,Emile Gallé,Heillecourt - Mairie,1,,,Frères Mlumière,Eurydice,1
+,Stade Matter,Jean Jaurés,1,,,Heillecourt - Mairie,La Rotonde,2,,,Eurydice,Albâtre,1
+,Jean Jaurés,Portier,1,,,La Rotonde,Léon Songeur,1,,,Albâtre,Ravel,1
+,Portier,Grande Haire,1,,,Léon Songeur,Sion,2,,,Ravel,Vert Village,1
+,Grande Haire,Leroux,1,,,Sion,Clemenceau,1,,,Vert Village,Ludres Cinéma,1
+,Leroux,Pulnoy République,1,,,Clemenceau,Tourtel,1,,,Ludres Cinéma,Baraques de Ludres,1
+,Pulnoy République,Sorbiers,1,,,Tourtel,Cimetière de Sud,4,,,Baraques de Ludres,Saint-François d'Assise,1
+,Sorbiers,Collège Goncourt,1,,,Cimetière de Sud,Villemin,1,,,Saint-François d'Assise,Foyer,1
+,Collège Goncourt,Petite Fin,1,,,Villemin,Quai de la Bataille,2,,,Foyer,Barthou,2
+,Petite Fin,Parterres Fleuris,1,,,Quai de la Bataille,Pichon,1,,,Barthou,Sainte-Colette,1
+,Parterres Fleuris,Les Bijoins,1,,,Pichon,Quartier Saint-Nicolas,2,,,Sainte-Colette,Oudinot,1
+,Les Bijoins,Les Rosiers,1,,,Quartier Saint-Nicolas,Place Charles III - Point Central,1,,,Oudinot,Parc de Saurupt,3
+,Les Rosiers,Saint-Laurent,1,,,Place Charles III - Point Central,Place Stanislas - Dom Calmet,2,,,Parc de Saurupt,Garenne,2
+,Saint-Laurent,,1,,,Place Stanislas - Dom Calmet,Amerval,1,,,Garenne,Varsovie,1
+,,,1,,,Amerval,Place Carnot,2,,,Varsovie,Place des Justes,1
+,,,1,,,Place Carnot,Haut-Bourgeois,1,,,Place des Justes,Nancy Gare,3
+,,,1,,,Haut-Bourgeois,Charles V,2,,,,,
+,,,1,,,Charles V,Simon,1,,,,,
+,,,1,,,Simon,Pierson,1,,,,,
+,,,1,,,Pierson,Fontenoy,1,,,,,
+,,,1,,,Fontenoy,Vayringe,1,,,,,
+,,,1,,,Vayringe,Douëra,2,,,,,
+,,,1,,,Douëra,Malzéville Stade,1,,,,,
+,,,1,,,Malzéville Stade,Malzéville Savlons,1,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
+,,,1,,,,,,,,,,
