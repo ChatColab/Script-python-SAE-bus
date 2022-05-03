@@ -1,0 +1,2 @@
+Insert into Arret(nomArret) values ("arret1");
+Insert into Arret(nomArret) values ("arret2");

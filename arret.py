@@ -10,5 +10,15 @@ print(list)
 
 final_list = []
 for line in list:
-    final_list.append(patterns + " (" + line + ");")
+    # append patterns + line and splice the 2 last char of the line
+    final_list.append(patterns + '("' + line[:-1] + '");' + "\n")
+
 print(final_list)
+
+final_file = open("arretFinal.txt","w")
+
+for line in final_list:
+    final_file.write(line)
+
+file.close()
+final_file.close()
