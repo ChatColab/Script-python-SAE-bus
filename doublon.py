@@ -1,12 +1,17 @@
-#read a csv file
-#find the doublon
-
 import pandas as pd
 
 #init
 df = pd.read_csv('Lignes.csv')
 #get all columns with ArretA and ArretB as title
-df_arret = df['ArretA12','ArretB12','ArretA13','ArretB13','ArretA14','ArretB14','ArretA15','ArretB15']
+df_arret = df.ArretA12
+df_arret = df_arret.append(df.ArretB12)
+df_arret = df_arret.append(df.ArretA13)
+df_arret = df_arret.append(df.ArretB13)
+df_arret = df_arret.append(df.ArretA14)
+df_arret = df_arret.append(df.ArretB14)
+df_arret = df_arret.append(df.ArretA15)
+df_arret = df_arret.append(df.ArretB15)
+
 
 #remove doublon
 df_arret = df_arret.drop_duplicates()
@@ -15,10 +20,10 @@ df_arret = df_arret.drop_duplicates()
 for i in range(0,len(df_arret)):
     print(df_arret.iloc[i])
 
-final_file = open ('arret.txt','w')
+final_file = open('arret.txt','w')
 
-for i in range(0,len(df_arret)):
-    final_file.write(df_arret.iloc[i])
-
+for line in df_arret:
+    final_file.write(line)
+    final_file.write('\n')
 ########################################
-
+final_file.close()
