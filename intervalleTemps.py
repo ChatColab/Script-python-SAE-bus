@@ -23,22 +23,29 @@ final_file = open('intervalleTemps.txt', 'w')
 with open('arret.txt') as arret_file:
     for num, line in enumerate(arret_file, 1):
         for i in range(0, len(df_arret['ArretA12'])):
-            if str(line) != str(df_arret['ArretA12'][i]):
+            if str(df_arret['ArretA12'][i]) in line:
                 final_file.write(df_arret['ArretA12'][i] + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretB12'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretA13'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretB13'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretA14'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretB14'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretA15'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
-            elif line == df_arret['ArretB15'][i]:
-                final_file.write(line + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretB12'])):
+            if str(df_arret['ArretB12'][i]) in line:
+                final_file.write(df_arret['ArretB12'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretA13'])):
+            if str(df_arret['ArretA13'][i]) in line:
+                final_file.write(df_arret['ArretA13'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretB13'])):
+            if str(df_arret['ArretB13'][i]) in line:
+                final_file.write(df_arret['ArretB13'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretA14'])):
+            if str(df_arret['ArretA14'][i]) in line:
+                final_file.write(df_arret['ArretA14'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretB14'])):
+            if str(df_arret['ArretB14'][i]) in line:
+                final_file.write(df_arret['ArretB14'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretA15'])):
+            if str(df_arret['ArretA15'][i]) in line:
+                final_file.write(df_arret['ArretA15'][i] + ' ' + str(num) + '\n')
+        for i in range(0, len(df_arret['ArretB15'])):
+            if str(df_arret['ArretB15'][i]) in line:
+                final_file.write(df_arret['ArretB15'][i] + ' ' + str(num) + '\n')
                 
         # final_file.write(line)
         # final_file.write(str(num))
