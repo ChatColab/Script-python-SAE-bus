@@ -1,155 +1,96 @@
-Temps Libre 4
-Temps Libre 4
-Vert Village 5
-Vert Village 5
-Stade Darnys 6
-Stade Darnys 6
-La Rotonde 7
-La Rotonde 7
-Heillecourt - Mairie 9
-Heillecourt - Mairie 9
-Leroux 10
-Leroux 10
-Simon 13
-Simon 13
-Saint-Julien 15
-Saint-Julien 15
-Lafayette 17
-Lafayette 17
-Deville 18
-Deville 18
-Ludres 21
-Baraques de Ludres 21
-Baraques de Ludres 21
-Chateaubriand 22
-Chateaubriand 22
-Villemin 25
-Villemin 25
-Lebrun 27
-Lebrun 27
-Victor Hugo 29
-Victor Hugo 29
-Sainte-Colette 32
-Sainte-Colette 32
-Parc de Saurupt 33
-Parc de Saurupt 33
-Saint-Blaine 36
-Saint-Blaine 36
-Parc Embanie 37
-Parc Embanie 37
-HEILLECOURT 38
-Eurydice 41
-Eurydice 41
-Esplanade 42
-Esplanade 42
-Tourtel 43
-Tourtel 43
-Ludres 44
-Ludres Mairie 44
-Ludres Mairie 44
-Baron Louis 48
-Baron Louis 48
-Oudinot 50
-Oudinot 50
-Courbet 51
-Courbet 51
-Secours 54
-Secours 54
-Stade Matter 55
-Stade Matter 55
-Quartier Saint-Nicolas 57
-Quartier Saint-Nicolas 57
-Quartier Saint-Nicolas 57
-Quartier Saint-Nicolas 57
-Quartier Saint-Nicolas 57
-Saulxures - Eglise 58
-Saulxures - Eglise 58
-Petite Fin 60
-Ecoles 62
-Ecoles 62
-Quai de la Bataille 63
-Quai de la Bataille 63
-Sorbiers 66
-Sorbiers 66
-Morlaix 68
-Morlaix 68
-Sion 69
-Sion 69
-Amerval 70
-Amerval 70
-Pottier 71
-Pottier 71
-Poirel 73
-Poirel 73
-Haut-Bourgeois 74
-Clemenceau 77
-Clemenceau 77
-Garenne 78
-Garenne 78
-Pichon 79
-Pichon 79
-Place des Vosges 80
-Place des Vosges 80
-La Vahotte 81
-La Vahotte 81
-Nancy Gare 85
-Nancy Gare 85
-Saulxures Mairie 90
-Saulxures Mairie 90
-Ludres 91
-Ludres Gare 91
-Ludres Gare 91
-Place Charles III - Point Central 92
-Place Charles III - Point Central 92
-Place Charles III - Point Central 92
-Place Charles III - Point Central 92
-Place Charles III - Point Central 92
-Place Charles III - Point Central 92
-Vanoise 95
-Vanoise 95
-Place des Justes 96
-Place des Justes 96
-Maxeville EcoParc 97
-Cherveny 98
-Cherveny 98
-Charles V 101
-Charles V 101
-Ludres 102
-Majorelle 104
-Majorelle 104
-Loritz 105
-Loritz 105
-Les Aulnes 108
-Les Aulnes 108
-Place Carnot 109
-Place Carnot 109
-Place Carnot 109
-Place Carnot 109
-Foyer 110
-Foyer 110
-Vervaux 111
-Vervaux 111
-Joli Coeur 113
-Joli Coeur 113
-Dusaulx 115
-Dusaulx 115
-Messein 118
-Messein 118
-Ludres 119
-Varsovie 120
-Varsovie 120
-Place Stanislas - Dom Calmet 122
-Place Stanislas - Dom Calmet 122
-Place Stanislas - Dom Calmet 122
-Place Stanislas - Dom Calmet 122
-Place Stanislas - Dom Calmet 122
-Place Stanislas - Dom Calmet 122
-Versailles 123
-Versailles 123
-Ravel 124
-Ravel 124
-Grande Haie 125
-Grande Haie 125
-Barthou 126
-Barthou 126
-eyow
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(1,2,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(34,Cuénot,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(94,81,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(104,105,4.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(2,3,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Cuénot,Nancy Pôle de santé,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(81,82,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(105,106,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(3,4,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Nancy Pôle de santé,37,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(82,Collège Monod,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(106,107,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(4,5,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(37,Cèdre Bleu,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Collège Monod,84,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(107,108,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(5,6,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Cèdre Bleu,Nancy Tilleul Argenté,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(84,85,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(108,109,3.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(6,7,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Nancy Tilleul Argenté,40,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(85,86,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(109,110,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(7,8,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(40,Centre Pénitentiaire,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(86,87,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(110,111,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(8,Emile Gallé,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Centre Pénitentiaire,42,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(87,Frères Mlumière,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(111,112,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Emile Gallé,10,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(42,Zénith,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Frères Mlumière,89,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(112,113,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(10,11,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Zénith,44,4);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(89,Albâtre,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(113,Jean Jaurés,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(11,Léon Songeur,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(44,Maxéville Mairie,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Albâtre,91,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Jean Jaurés,115,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Léon Songeur,13,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Maxéville Mairie,André Vautrin,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(91,92,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(115,116,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(13,14,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(André Vautrin,47,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(92,Ludres Cinéma,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(116,117,3.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(14,15,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(47,48,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Ludres Cinéma,94,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(117,Vert pré,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(15,Cimetière de Sud,4.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(48,49,1);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(94,Saint-François d'Assise,5.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Vert pré,119,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Cimetière de Sud,17,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(49,50,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Saint-François d'Assise,96,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(119,120,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(17,18,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(50,51,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(96,96,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(120,121,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(18,19,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(51,52,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(96,97,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(121,Saulxures - Château,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(19,108,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(52,53,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(97,98,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Saulxures - Château,123,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(108,107,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(53,54,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(98,99,3.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(123,124,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(107,106,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(54,55,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(99,100,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(124,Pulnoy République,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(106,23,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(55,106,3);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(100,101,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Pulnoy République,126,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(23,55,2.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(106,107,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(101,102,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(126,Collège Goncourt,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(55,25,1.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(107,108,2);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(102,104,3.0);
+Insert into TempsTrajet (nArretA,nArretB,intervalleTemps) values(Collège Goncourt,128,1.0);
