@@ -25,7 +25,7 @@ arretb15 = df_arret.astype(str)['ArretB15']
 
 final_file = open('intervalleTemps.txt', 'w')
 
-with open('doublon.txt') as arret_file:
+with open('arretraw.txt') as arret_file:
     for num, line in enumerate(arret_file, 1):
         for i in range(0, len(df_arret['ArretA12'])):
             if str(df_arret['ArretA12'][i]) in line:
@@ -51,14 +51,7 @@ with open('doublon.txt') as arret_file:
         for i in range(0, len(df_arret['ArretB15'])):
             if str(df_arret['ArretB15'][i]) in line:
                 arretb15[i]=str(num)
-                
-        # final_file.write(line)
-        # final_file.write(str(num))
-        # final_file.write('\n')
 
-
-# for index, row in df_arret.iterrows():
-#     final_file.write(row['ArretA12'])
 
 arret_file.close()
 final_file.close()
@@ -71,12 +64,4 @@ for index, row in df_arret.iterrows():
     final_file.write(patterns + '(' + arreta14[index] + ',' + arretb14[index] + ',' + str(row['Temps14']) + ');' + "\n")
     final_file.write(patterns + '(' + arreta15[index] + ',' + arretb15[index] + ',' + str(row['Temps15']) + ');' + "\n")
 
-
-
 final_file.close()
-
-# #remove the (arreta, arretb, temps) lines where there is a dublon of arreta and arretb combination
-# df_arret = df_arret.drop_duplicates(subset=['ArretA12', 'ArretB12'])
-
-
-#final_file = open('intervalleTemps.txt','w')
