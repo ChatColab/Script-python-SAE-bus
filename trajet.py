@@ -1,5 +1,7 @@
 import pandas as pd
 
+patterns = "Insert into Arret(nomArret) values "
+
 #init
 df = pd.read_csv('Lignes.csv')
 
@@ -92,7 +94,7 @@ print(df_arretB14)
 print(df_arretA15)
 print(df_arretB15)
 
-final_file = open('doublon.txt','w')
+final_file = open('arret.txt','w')
 
 #write df_arretA12 in arret.txt
 final_file.write(str(df_arretA12))

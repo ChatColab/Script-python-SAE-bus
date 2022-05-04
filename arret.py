@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = open("arret.txt","r")
+file = open("doublon.txt","r")
 
 list = file.readlines()
 patterns = "Insert into Arret(nomArret) values "
@@ -12,7 +12,7 @@ for line in list:
 
 print(final_list)
 
-final_file = open("arretFinal.txt","w")
+final_file = open("arret.txt","w")
 
 for line in final_list:
     final_file.write(line)
