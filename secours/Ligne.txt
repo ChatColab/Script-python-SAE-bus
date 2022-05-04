@@ -1,0 +1,4 @@
+Insert into Ligne(nomLigne,nArretDepart) values(12,1);
+Insert into Ligne(nomLigne,nArretDepart) values(13,34);
+Insert into Ligne(nomLigne,nArretDepart) values(14,80);
+Insert into Ligne(nomLigne,nArretDepart) values(15,102);
