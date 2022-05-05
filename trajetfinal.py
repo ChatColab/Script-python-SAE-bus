@@ -3,7 +3,7 @@ import pandas as pd
 
 #init
 df = pd.read_csv('Lignes.csv')
-patterns = "Insert into TempsTrajet (nLigne,nArretA,nArretB) values"
+patterns = "Insert into Trajet (nLigne,nArretA,nArretB) values"
 
 df_arret = df [['ArretA12', 'ArretB12', 'ArretA13', 'ArretB13', 'ArretA14', 'ArretB14', 'ArretA15', 'ArretB15']]
 
@@ -94,7 +94,7 @@ for index, row in df_arret.iterrows():
     final_file.write(patterns + '(3,' + arreta14[index] + ',' + arretb14[index] + ');' + "\n")
     final_file.write(patterns + '(4,' + arreta15[index] + ',' + arretb15[index] + ');' + "\n")
 
-    
+
 
 final_file.close()
 
@@ -130,6 +130,6 @@ final_file.close()
 #     final_file.write(patterns + '(' + str(row['ArretA13']) + ',' + str(row['ArretB13']) + ',' + str(int(row['Temps13'])) + ');' + "\n")
 #     final_file.write(patterns + '(' + str(row['ArretA14']) + ',' + str(row['ArretB14']) + ',' + str(int(row['Temps14'])) + ');' + "\n")
 #     final_file.write(patterns + '(' + str(row['ArretA15']) + ',' + str(row['ArretB15']) + ',' + str(int(row['Temps15'])) + ');' + "\n")
-    
+
 
 # final_file.close()
