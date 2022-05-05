@@ -5,19 +5,23 @@ inter_file = open("arret.txt","r")
 final_file = open("interFinal.txt", "w")
 
 
+
 #split inter_file into 3 columns separated by ,
-with open('doublon.txt') as arret_file:
-    for num, line in enumerate(arret_file, 1):
-        print(line)
-        for line1 in inter_file:
-            line1 = line1.split(",")
-            for i in range(len(line1)):
-                line1[i] = line1[i].replace("\n","")
-            for i in range(0, 1):
-                if str(line1[i]) in line:
-                    print(line1[i])
-                    line1[i] = str(num)
-            final_file.write(patterns + '(' + str(line1[0]) + ',' + str(line1[1]) + ',' + str(line1[2]) + ');' + "\n")
+for line1 in inter_file:
+    line1 = line1.split(",")
+    for i in range(len(line1)):
+        line1[i] = line1[i].replace("\n","")
+    for i in range(0, 2):
+        cpt=1
+        arret_file = open("doublon.txt", "r")
+        for line in arret_file:
+            if str(line1[i]) in line:
+                line1[i] = str(cpt)
+            cpt+=1
+        arret_file.close()
+    final_file.write(patterns + '(' + str(line1[0]) + ',' + str(line1[1]) + ',' + str(line1[2]) + ');' + "\n")
+    
+        
                     
 
 
@@ -29,6 +33,6 @@ with open('doublon.txt') as arret_file:
 #     final_file.write(patterns + '(' + arreta15[index] + ',' + arretb15[index] + ',' + str(int(row['Temps15'])) + ');' + "\n")
 
 # #close all files
-# arret_file.close()
-inter_file.close()
+
 final_file.close()
+inter_file.close()
