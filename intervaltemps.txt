@@ -1,0 +1,136 @@
+Nancy Gare,Poirel,4
+Poirel,Place Stanislas - Dom Calmet,2
+Place Stanislas - Dom Calmet,Place Charles III - Point Central,1
+Place Charles III - Point Central,Quartier Saint-Nicolas,2
+Quartier Saint-Nicolas,Place des Vosges,3
+Place des Vosges,Saint-Julien,1
+Saint-Julien,Loritz,2
+Loritz,Esplanade,2
+Esplanade,Stade Matter,1
+Stade Matter,Jean Jaurés,2
+Jean Jaurés,Pottier,1
+Pottier,Grande Haie,1
+Grande Haie,Leroux,3
+Leroux,Vert pré,1
+Vert pré,La Vahotte,1
+La Vahotte,Saulxures Mairie,1
+Saulxures Mairie,Saulxures - Eglise,1
+Saulxures - Eglise,Saulxures - Château,1
+Saulxures - Château,Vervaux,2
+Vervaux,Lebrun,1
+Lebrun,Pulnoy République,1
+Pulnoy République,Sorbiers,1
+Sorbiers,Collège Goncourt,1
+Collège Goncourt,Petite Fin,1
+Petite Fin,Parterres Fleuris,2
+Parterres Fleuris,Les Bijoins,1
+Les Bijoins,Les Rosiers,1
+Les Rosiers,Saint-Laurent,1
+Saint-Laurent,Seichamps - Mairie,1
+Seichamps - Mairie,Varinchamps,1
+Varinchamps,Jardin Roussel,1
+Jardin Roussel,Le Hohneck,2
+Le Hohneck,Galibier,1
+Galibier,Sureaux,2
+Sureaux,Seichamps Ecoquartier,1
+HEILLECOURT,Vanoise,1
+Vanoise,Victor Hugo,1
+Victor Hugo,Versailles,1
+Versailles,Morlaix,2
+Morlaix,Chateaubriand,1
+Chateaubriand,Parc Embanie,1
+Parc Embanie,Temps Libre,1
+Temps Libre,Emile Gallé,1
+Emile Gallé,Heillecourt - Mairie,1
+Heillecourt - Mairie,La Rotonde,2
+La Rotonde,Léon Songeur,1
+Léon Songeur,Sion,2
+Sion,Clemenceau,1
+Clemenceau,Tourtel,1
+Tourtel,Cimetière de Sud,4
+Cimetière de Sud,Villemin,1
+Villemin,Quai de la Bataille,2
+Quai de la Bataille,Pichon,1
+Pichon,Quartier Saint-Nicolas,2
+Quartier Saint-Nicolas,Place Charles III - Point Central,1
+Place Charles III - Point Central,Place Stanislas - Dom Calmet,2
+Place Stanislas - Dom Calmet,Amerval,1
+Amerval,Place Carnot,2
+Place Carnot,Haut-Bourgeois,1
+Haut-Bourgeois,Charles V,2
+Charles V,Simon,1
+Simon,Pierson,1
+Pierson,Fontenoy,1
+Fontenoy,Vayringe,1
+Vayringe,Douëra,2
+Douëra,Malzéville Stade,1
+Malzéville Stade,Malzéville Savlons,1
+Ludres,Saint-Blaine,1
+Saint-Blaine,Ludres Gare,1
+Ludres Gare,Collège Monod,1
+Collège Monod,Ludres Mairie,2
+Ludres Mairie,Ecoles,1
+Ecoles,Secours,1
+Secours,Messein,1
+Messein,Frères Lumière,1
+Frères Lumière,Eurydice,1
+Eurydice,Albâtre,1
+Albâtre,Ravel,1
+Ravel,Vert Village,1
+Vert Village,Ludres Cinéma,1
+Ludres Cinéma,Baraques de Ludres,1
+Baraques de Ludres,Saint-François d'Assise,5
+Saint-François d'Assise,Foyer,2
+Foyer,Barthou,1
+Barthou,Sainte-Colette,1
+Sainte-Colette,Oudinot,1
+Oudinot,Parc de Saurupt,3
+Parc de Saurupt,Garenne,2
+Garenne,Varsovie,1
+Varsovie,Place des Justes,1
+Place des Justes,Nancy Gare,3
+Maxeville EcoParc,Cuénot,1
+Cuénot,Nancy Pôle de santé,1
+Nancy Pôle de santé,Majorelle,1
+Majorelle,Cèdre Bleu,2
+Cèdre Bleu,Nancy Tilleul Argenté,1
+Nancy Tilleul Argenté,Les Aulnes,1
+Les Aulnes,Centre Pénitentiaire,1
+Centre Pénitentiaire,Stade Darnys,1
+Stade Darnys,Zénith,1
+Zénith,Cherveny,1
+Cherveny,Maxéville Mairie,1
+Maxéville Mairie,André Vautrin,1
+André Vautrin,Courbet,1
+Courbet,Lafayette,2
+Lafayette,Deville,1
+Deville,Dusaulx,2
+Dusaulx,Joli Coeur,2
+Joli Coeur,Simon,2
+Simon,Charles V,2
+Charles V,Baron Louis,2
+Baron Louis,Place Carnot,2
+Place Carnot,Place Stanislas - Dom Calmet,3
+Place Stanislas - Dom Calmet,Place Charles III - Point Central,2
+Place Charles III - Point Central,Quartier Saint-Nicolas,2
+Quartier Saint-Nicolas,Place des Vosges,3
+Place des Vosges,Saint-Julien,2
+Saint-Julien,Loritz,2
+Loritz,Esplanade,2
+Esplanade,Rives de Meurthe,1
+Rives de Meurthe,Cinéma,2
+Cinéma,Saint-Georges,2
+Saint-Georges,Cristalleries,2
+Cristalleries,Gérard Barrois - Stade Marcel Pic,2
+Gérard Barrois - Stade Marcel Pic,Blaison - Parc,1
+Blaison - Parc,Jacques Cartier,1
+Jacques Cartier,Alexandre 1er,1
+Alexandre 1er,Le Nid,1
+Le Nid,Pinsons,1
+Pinsons,Massenet,1
+Massenet,Libérator,1
+Libérator,Charpentier,2
+Charpentier,Balzac,1
+Balzac,Chemin Stratégique,1
+Chemin Stratégique,Haie Le Comte,1
+Haie Le Comte,Dommartemont,1
