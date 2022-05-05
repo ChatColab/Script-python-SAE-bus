@@ -10,9 +10,6 @@ df_arret = df [['ArretA12', 'ArretB12', 'Temps12', 'ArretA13', 'ArretB13', 'Temp
 #remove all nan values
 df_arret = df_arret.dropna()
 
-#convert all df_arret values into string
-df_arret = df_arret.astype(str)
-
 arreta12 = df_arret.astype(str)['ArretA12']
 arretb12 = df_arret.astype(str)['ArretB12']
 arreta13 = df_arret.astype(str)['ArretA13']
@@ -51,14 +48,6 @@ with open('doublon.txt') as arret_file:
         for i in range(0, len(df_arret['ArretB15'])):
             if str(df_arret['ArretB15'][i]) in line:
                 arretb15[i]=str(num)
-                
-        # final_file.write(line)
-        # final_file.write(str(num))
-        # final_file.write('\n')
-
-
-# for index, row in df_arret.iterrows():
-#     final_file.write(row['ArretA12'])
 
 arret_file.close()
 final_file.close()
@@ -66,17 +55,9 @@ final_file.close()
 final_file = open('intervalleTemps.txt','w')
 
 for index, row in df_arret.iterrows():
-    final_file.write(patterns + '(' + arreta12[index] + ',' + arretb12[index] + ',' + str(row['Temps12']) + ');' + "\n")
-    final_file.write(patterns + '(' + arreta13[index] + ',' + arretb13[index] + ',' + str(row['Temps13']) + ');' + "\n")
-    final_file.write(patterns + '(' + arreta14[index] + ',' + arretb14[index] + ',' + str(row['Temps14']) + ');' + "\n")
-    final_file.write(patterns + '(' + arreta15[index] + ',' + arretb15[index] + ',' + str(row['Temps15']) + ');' + "\n")
-
-
+    final_file.write(patterns + '(' + arreta12[index] + ',' + arretb12[index] + ',' + str(int(row['Temps12'])) + ');' + "\n")
+    final_file.write(patterns + '(' + arreta13[index] + ',' + arretb13[index] + ',' + str(int(row['Temps13'])) + ');' + "\n")
+    final_file.write(patterns + '(' + arreta14[index] + ',' + arretb14[index] + ',' + str(int(row['Temps14'])) + ');' + "\n")
+    final_file.write(patterns + '(' + arreta15[index] + ',' + arretb15[index] + ',' + str(int(row['Temps15'])) + ');' + "\n")
 
 final_file.close()
-
-# #remove the (arreta, arretb, temps) lines where there is a dublon of arreta and arretb combination
-# df_arret = df_arret.drop_duplicates(subset=['ArretA12', 'ArretB12'])
-
-
-#final_file = open('intervalleTemps.txt','w')
