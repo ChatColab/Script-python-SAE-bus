@@ -22,7 +22,7 @@ arretb15 = df_arret.astype(str)['ArretB15']
 
 final_file = open('intervalleTemps.txt', 'w')
 
-with open('arretraw.txt') as arret_file:
+with open('doublon.txt') as arret_file:
     for num, line in enumerate(arret_file, 1):
         for i in range(0, len(df_arret['ArretA12'])):
             if str(df_arret['ArretA12'][i]) in line:
