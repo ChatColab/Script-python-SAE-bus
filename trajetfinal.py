@@ -20,8 +20,11 @@ arretb14 = df_arret.astype(str)['ArretB14']
 arreta15 = df_arret.astype(str)['ArretA15']
 arretb15 = df_arret.astype(str)['ArretB15']
 
+testo=0
+
 
 for i in range(0, len(df_arret['ArretA12'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -30,6 +33,7 @@ for i in range(0, len(df_arret['ArretA12'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretB12'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -38,6 +42,7 @@ for i in range(0, len(df_arret['ArretB12'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretA13'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -46,6 +51,7 @@ for i in range(0, len(df_arret['ArretA13'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretB13'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -54,6 +60,7 @@ for i in range(0, len(df_arret['ArretB13'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretA14'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -62,6 +69,7 @@ for i in range(0, len(df_arret['ArretA14'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretB14'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -70,6 +78,7 @@ for i in range(0, len(df_arret['ArretB14'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretA15'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -78,6 +87,7 @@ for i in range(0, len(df_arret['ArretA15'])):
         cpt+=1
     arret_file.close()
 for i in range(0, len(df_arret['ArretB15'])):
+    testo = testo + 1
     cpt=1
     arret_file = open("doublon.txt", "r")
     for line in arret_file:
@@ -86,15 +96,15 @@ for i in range(0, len(df_arret['ArretB15'])):
         cpt+=1
     arret_file.close()
 
-final_file = open('trajet.txt','w')
+print(testo)
+
+final_file = open('trajetTest.txt','w')
 
 for index, row in df_arret.iterrows():
     final_file.write(patterns + '(1,' + arreta12[index] + ',' + arretb12[index] + ');' + "\n")
     final_file.write(patterns + '(2,' + arreta13[index] + ',' + arretb13[index] + ');' + "\n")
     final_file.write(patterns + '(3,' + arreta14[index] + ',' + arretb14[index] + ');' + "\n")
     final_file.write(patterns + '(4,' + arreta15[index] + ',' + arretb15[index] + ');' + "\n")
-
-
 
 final_file.close()
 
